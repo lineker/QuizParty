@@ -16,6 +16,8 @@
 
     _mcManager = [[MCManager alloc] init];
     
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+    
     return YES;
 }
 							
